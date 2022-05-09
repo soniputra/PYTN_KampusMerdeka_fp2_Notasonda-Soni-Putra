@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Basic -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Mobile Metas -->
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<!-- Site Metas -->
+<title>Australia Rain Predictions</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Site Icons -->
+<link rel="shortcut icon" href="{{ url_for('static', filename='images/favicon.ico') }}" type="image/x-icon" />
+<link rel="apple-touch-icon" href="{{ url_for('static', filename='images/apple-touch-icon.png') }}">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+<!-- Site CSS -->
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<!-- Responsive CSS -->
+<link rel="stylesheet" href="{{ url_for('static', filename='css/responsive.css') }}">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="{{ url_for('static', filename='css/custom.css') }}">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="{{ url_for('static', filename='js/modernizr.js') }}"></script> <!-- Modernizr -->
+<!-- UiKit CSS -->
+<link rel="stylesheet" href="{{ url_for('static', filename='css/uikit.min.css') }}">
+
+
+</head>
+
+<body id="page-top" class="politics_version">
+
+	<!-- LOADER -->
+	<div id="preloader">
+		<div id="main-ld">
+			<div id="loader"></div>
+		</div>
+	</div><!-- end loader -->
+	<!-- END LOADER -->
+
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+		<div class="container">
+			<a class="navbar-brand js-scroll-trigger" href="#page-top">
+				<img class="img-fluid" src="{{ url_for('static', filename='images/logo.png') }}" alt="" width=150px />
+			</a>
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+				data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+				aria-label="Toggle navigation">
+				Menu
+				<i class="fa fa-bars"></i>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav text-uppercase ml-auto">
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger active" href="#home">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#about">Explanation</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#portfolio">Chart</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#team">Team</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link js-scroll-trigger" href="#contact">Prediction</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<section id="home" class="main-banner parallaxie"
+		style="background: url('{{ url_for('static', filename='uploads/Banner Background - Final Project 2.png') }}')">
+		<div class="heading">
+			</h3>
+		</div>
+	</section>
+
+	<div id="about" class="section wb" data-aos="zoom-in">
+		<div class="container">
+			<div class="row">
+				<div class="">
+					<div class="message-box">
+						<div class="section-title text-center">
+							<h3>Explanation</h3>
+							<p>In this section, there is a description of the abstract and also a description of the
+								data.
+							</p>
+						</div><!-- end title -->
+						<nav>
+							<div class="nav nav-tabs" id="nav-tab" role="tablist">
+								<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home"
+									role="tab" aria-controls="nav-home" aria-selected="true">Abstract</a>
+								<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile"
+									role="tab" aria-controls="nav-profile" aria-selected="false">Data</a>
+							</div>
+						</nav>
+						<div class="tab-content mt-3 " id="nav-tabContent">
+							<div class="tab-pane fade show active" id="nav-home" role="tabpanel"
+								aria-labelledby="nav-home-tab">
+								<h3 style="text-align:center;font-weight:bolder; " class="text-muted">Abstract</h3>
+								<p style='text-align: justify;'>
+									Iklim Australia sangat bervariasi di delapan negara bagian dan wilayahnya.
+									Kebanyakan wilayah Australia
+									memiliki empat musim, sementara musim kering dan hujan berlangsung di wilayah tropis
+									di utara benua. Karena
+									negara ini begitu besar, iklim di Australia sangat berbeda dari satu wilayah ke
+									wilayah lain. Secara umum,
+									ada empat musim di sebagian besar negara ini, sementara Top End (termasuk Darwin,
+									Katherine, Kakadu, dan
+									Arnhem Land), Broome, Kimberley dan Tropical North Queensland (Cairns, Whitsundays,
+									dan Daintree Rainforest)
+									mengalami ‘musim basah’ (November hingga April) dan ‘musim kering’ (Mei hingga
+									Oktober). Musim basah di
+									Australia bagian utara ditandai dengan hari yang sangat panas, kelembapan tinggi,
+									hujan monsun dan mungkin
+									siklon, tetapi juga dengan daya tarik tersendiri. </p>
+
+								<p style='text-align: justify;'>
+									Dari pernyataan sebelumnya, memang setiap musim ada periodenya tersendiri. Tetapi
+									saat ini dunia mengalami
+									perubahan iklim. Perubahan iklim adalah perubahan yang signifikan kepada iklim, suhu
+									udara dan curah hujan
+									mulai dari dasawarsa sampai jutaan tahun. Perubahan iklim yang terjadi secara global
+									tidak bisa dianggap
+									remeh karena dampaknya bagi kehidupan sangat signifikan dan membahayakan. Konvensi
+									Perserikatan
+									Bangsa-Bangsa (PBB) tentang Kerangka Kerja Perubahan Iklim (United Nations Framework
+									Convention on Climate
+									Change/UNFCCC) mendefinisikan penyebab perubahan iklim global baik secara langsung
+									atau tidak langsung
+									adalah dipengaruhi aktivitas manusia sehingga mengubah komposisi dari atmosfer
+									global dan variabilitas iklim
+									alami pada periode waktu yang dapat diperbandingkan. Maka dari itu, periode iklim
+									sudah tidak terlalu akurat
+									lagi. Hujan bisa saja terjadi diluar periode musim basah, dan sebaliknya. </p>
+
+								<p style='text-align: justify;'>
+									Untuk membantu masyarakat Australia dalam memprediksi hujan di hari esok, maka akan
+									dibuat sebuah aplikasi
+									prediksi hujan dengan perbandingan metode logistic regression, decision tree, dan
+									random forest.</p>
+							</div>
+
+							<div class="tab-pane fade" id="nav-profile" role="tabpanel"
+								aria-labelledby="nav-profile-tab">
+								<h3 style="text-align:center;font-weight:bolder;" class=" text-muted">Data</h3>
+								<p style='text-align: justify;'>
+									Dataset yang digunakan yaitu <b>Rain in Australia</b> yang berisi record data hujan
+									harian selama 10 tahun
+									di Australia. Kolom RainTomorrow adalah target variable yang mau diprediksi. Jika
+									“Yes” maka besok harinya
+									disana hujan 1mm atau lebih. Dataset ini memiliki 23 atribut, antara lain: </p>
+								<ul>
+									<li>Date: tanggal hari itu</li>
+									<li>Location: lokasi, nama kota di Australia</li>
+									<li>MinTemp: temperatur terendah hari itu dalam celcius</li>
+									<li>MaxTemp: temperatur tertinggi hari itu dalam celcius</li>
+									<li>Rainfall: jumlah curah hujan hari itu dalam mm</li>
+									<li>Evaporation: jumlah evaporasi dalam mm dari Class A pan selama 24 jam sebelum
+										jam 9 pagi hari itu</li>
+									<li>Sunshine: jumlah jam hari itu cerah dengan cahaya matahari</li>
+									<li>WindGustDir: arah kecepatan angin yang paling tinggi selama 24 jam sebelum jam
+										12 malam hari itu</li>
+									<li>WindGustSpeed: kecepatan angin yang paling tinggi dalam km/jam selama 24 jam
+										sebelum jam 12 malam hari itu
+									</li>
+									<li>WindDir9am: arah angin jam 9 pagi</li>
+									<li>WindDir3pm: arah angin jam 3 sore</li>
+									<li>WindSpeed9am: kecepatan angin jam 9 pagi dalam km/jam dihitung dari rata-rata
+										kecepatan angin 10 menit sebelum jam 3 sore</li>
+									<li>WindSpeed3pm: kecepatan angin jam 3 sore dalam km/jam dihitung dari rata-rata
+										kecepatan angin 10 menit sebelum jam 3 sore</li>
+									<li>Humidity9am: humiditas jam 9 pagi dalam persen</li>
+									<li>Humidity3pm: humiditas jam 3 sore dalam persen</li>
+									<li>Pressure9am: tekanan udara jam 9 pagi dalam hpa</li>
+									<li>Pressure3pm: tekanan udara jam 3 sore dalam hpa</li>
+									<li>Cloud9am: persentase langit yang tertutup awan jam 9 pagi. dihitung dalam oktas,
+										unit ⅛, menghitung berapa unit ⅛ dari langit yang tertutup awan. Jika 0, langit
+										cerah, jika 8, langit sepenuhnya tertutup awan.</li>
+									<li>Cloud3pm: persentase langit yang tertutup awan jam 3 sore</li>
+									<li>Temp9am: temperatur jam 9 pagi dalam celcius</li>
+									<li>Temp3pm: temperatur jam 3 sore dalam celcius</li>
+									<li>RainToday: apakah hari ini hujan: jika curah hujan 24 jam sebelum jam 9 pagi
+										melebihi 1 mm, maka nilai ini adalah 1, jika tidak maka 0.</li>
+								</ul>
+							</div>
+						</div>
+					</div><!-- end messagebox -->
+				</div><!-- end col -->
+			</div><!-- end row -->
+		</div><!-- end container -->
+	</div><!-- end section -->
+
+
+	<div id="portfolio" class="section lb" data-aos="fade-up">
+		<div class=" container">
+			<div class="section-title text-center">
+				<h3>Chart</h3>
+				<p>A chart can represent tabular numeric data, functions or some kinds of quality structure and provides
+					different info.
+				</p>
+			</div><!-- end title -->
+
+			<div class="gallery-menu row">
+				<div class="col-md-12">
+					<div class="button-group filter-button-group text-center">
+						<button class="active" data-filter="*">All Graphic Plot</button>
+						<button data-filter=".gal_a">Analysis Chart Plot</button>
+						<button data-filter=".gal_b">Scatter Plot</button>
+						<button data-filter=".gal_c">Classification Plot</button>
+					</div>
+				</div>
+			</div>
+
+
+
+			<div class="gallery-list row">
+				<!-- Gal_A Section -->
+				<!-- 1 -->
+				<div class="col-md-4 col-sm-6 gallery-grid gal_a">
+					<div>
+						<div class="uk-card-hover bg-transparent">
+							<!-- Animate png -->
+							<div class="uk-animation-toggle" tabindex="0">
+								<div>
+									<a class="uk-inline"
+										href="{{ url_for('static', filename='uploads/confusion_matrix_7.png') }}"
+										data-caption="Transport Name">
+										<img src="{{ url_for('static', filename='uploads/confusion_matrix_7.png') }}"
+											alt="" width="720" height="480">
+									</a>
+								</div>
+							</div>
+							<p style="text-align:center;font-family:'Segoe UI';font-weight: bolder;" class="text-dark">
+								Confussion Matrix</p>
+						</div>
+					</div>
+				</div>
+				<!-- 2 -->
+				<div class="col-md-4 col-sm-6 gallery-grid gal_a">
+					<div>
+						<div class="uk-card-hover bg-transparent">
+							<!-- Animate png -->
+							<div class="uk-animation-toggle" tabindex="0">
+								<div>
+									<a class="uk-inline"
+										href="{{ url_for('static', filename='uploads/confusion_matrix_6.png') }}"
+										data-caption="Services Type">
+										<img src="{{ url_for('static', filename='uploads/confusion_matrix_6.png') }}"
+											alt="" width="720" height="480">
+									</a>
+								</div>
+							</div>
+							<p style="text-align:center;font-family:'Segoe UI';font-weight: bolder;" class="text-dark">
+								Confussion Matrix</p>
+						</div>
+					</div>
+				</div>
+				<!-- 3 -->
+				<div class="col-md-4 col-sm-6 gallery-grid gal_a">
+					<div>
+						<div class="uk-card-hover bg-transparent">
+							<!-- Animate png -->
+							<div class="uk-animation-toggle" tabindex="0">
+								<div>
+									<a class="uk-inline"
+										href="{{ url_for('static', filename='uploads/confusion_matrix_5.png') }}"
+										data-caption="Weather">
+										<img src="{{ url_for('static', filename='uploads/confusion_matrix_5.png') }}"
+											alt="" width="720" height="480">
+									</a>
+								</div>
+							</div>
+							<p style="text-align:center;font-family:'Segoe UI';font-weight: bolder;" class="text-dark">
+								Confussion Matrix</p>
+						</div>
+					</div>
+				</div>
+				<!-- 4 -->
+				<div class="col-md-4 col-sm-6 gallery-grid gal_a">
+					<div>
+						<div class="uk-card-hover bg-transparent">
+							<!-- Animate png -->
+							<div class="uk-animation-toggle" tabindex="0">
+								<div>
+									<a class="uk-inline"
+										href="{{ url_for('static', filename='uploads/confusion_matrix_4.png') }}"
+										data-caption="Route">
+										<img src="{{ url_for('static', filename='uploads/confusion_matrix_4.png') }}"
+											alt="" width="720" height="480">
+									</a>
+								</div>
+							</div>
+							<p style="text-align:center;font-family:'Segoe UI';font-weight: bolder;" class="text-dark">
+								Confussion Matrix</p>
+						</div>
+					</div>
+				</div>
+				<!-- 5 -->
+				<div class="col-md-4 col-sm-6 gallery-grid gal_a">
+					<div>
+						<div class="uk-card-hover bg-transparent">
+							<!-- Animate png -->
+							<div class="uk-animation-toggle" tabindex="0">
+								<div>
+									<a class="uk-inline"
+										href="{{ url_for('static', filename='uploads/confusion_matrix_3.png') }}"
+										data-caption="Route">
+										<img src="{{ url_for('static', filename='uploads/confusion_matrix_3.png') }}"
+											alt="" width="720" height="480">
+									</a>
+								</div>
+							</div>
+							<p style="text-align:center;font-family:'Segoe UI';font-weight: bolder;" class="text-dark">
+								Confussion Matrix</p>
+						</div>
+					</div>
+				</div>
+				<!-- 6 -->
+				<div class="col-md-4 col-sm-6 gallery-grid gal_a">
+					<div>
+						<div class="uk-card-hover bg-transparent">
+							<!-- Animate png -->
+							<div class="uk-animation-toggle" tabindex="0">
+								<div>
+									<a class="uk-inline"
+										href="{{ url_for('static', filename='uploads/confusion_matrix_2.png') }}"
+										data-caption="Route">
+										<img src="{{ url_for('static', filename='uploads/confusion_matrix_2.png') }}"
+											alt="" width="720" height="480">
+									</a>
+								</div>
+							</div>
+							<p style="text-align:center;font-family:'Segoe UI';font-weight: bolder;" class="text-dark">
+								Confussion Matrix</p>
+						</div>
+					</div>
+				</div>
+				<!-- 7 -->
+				<div class="col-md-4 col-sm-6 gallery-grid gal_a">
+					<div>
+						<div class="uk-card-hover bg-transparent">
+							<!-- Animate png -->
+							<div class="uk-animation-toggle" tabindex="0">
+								<div>
+									<a class="uk-inline"
+										href="{{ url_for('static', filename='uploads/confusion_matrix_1.png') }}"
+										data-caption="Route">
+										<img src="{{ url_for('static', filename='uploads/confusion_matrix_1.png') }}"
+											alt="" width="720" height="480">
+									</a>
+								</div>
+							</div>
+							<p style="text-align:center;font-family:'Segoe UI';font-weight: bolder;" class="text-dark">
+								Confussion Matrix</p>
+						</div>
+					</div>
+				</div>
+				<!-- 6 -->
+				<div class="col-md-4 col-sm-6 gallery-grid gal_a">
+					<div>
+						<div class="uk-card-hover bg-transparent">
+							<!-- Animate png -->
+							<div class="uk-animation-toggle" tabindex="0">
+								<div>
+									<a class="uk-inline"
+										href="{{ url_for('static', filename='uploads/corr_heatmap_num.png') }}"
+										data-caption="Route">
+										<img src="{{ url_for('static', filename='uploads/corr_heatmap_num.png') }}"
+											alt="" width="720" height="480">
+									</a>
+								</div>
+							</div>
+							<p style="text-align:center;font-family:'Segoe UI';font-weight: bolder;" class="text-dark">
+								Correlation Numeric Using Heatmap</p>
+						</div>
+					</div>
+				</div>
+				<!-- 7 -->
+				<div class="col-md-4 col-sm-6 gallery-grid gal_a">
+					<div>
+						<div class="uk-card-hover bg-transparent">
+							<!-- Animate png -->
+							<div class="uk-animation-toggle" tabindex="0">
+								<div>
+									<a class="uk-inline"
+										href="{{ url_for('static', filename='uploads/corr_categ.png') }}"
+										data-caption="Route">
+										<img src="{{ url_for('static', filename='uploads/corr_categ.png') }}" alt=""
+											width="720" height="480">
+									</a>
+								</div>
+							</div>
+							<p style="text-align:center;font-family:'Segoe UI';font-weight: bolder;" class="text-dark">
+								Correlation Category Using Heatmap</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- Gal_B Section -->
+				<!-- 1 -->
+				<div class="col-md-4 col-sm-6 gallery-grid gal_b">
+					<div>
+						<div class="uk-card-hover bg-transparent">
+							<!-- Animate png -->
+							<div class="uk-animation-toggle" tabindex="0">
+								<div>
+									<a class="uk-inline"
+										href="{{ url_for('static', filename='uploads/scatter_numer.png') }}"
+										data-caption="Transport Name">
+										<img src="{{ url_for('static', filename='uploads/scatter_numer.png') }}" alt=""
+											width="720" height="480">
+									</a>
+								</div>
+							</div>
+							<p style="text-align:center;font-family:'Segoe UI';font-weight: bolder;" class="text-dark">
+								Scatter Numeric Plot</p>
+						</div>
+					</div>
+				</div>
+				<!-- 2 -->
+				<div class="col-md-4 col-sm-6 gallery-grid gal_b">
+					<div>
+						<div class="uk-card-hover bg-transparent">
+							<!-- Animate png -->
+							<div class="uk-animation-toggle" tabindex="0">
+								<div>
+									<a class="uk-inline"
+										href="{{ url_for('static', filename='uploads/numer_col.png') }}"
+										data-caption="Weather">
+										<img src="{{ url_for('static', filename='uploads/numer_col.png') }}" alt=""
+											width="720" height="480">
+									</a>
+								</div>
+							</div>
+							<p style="text-align:center;font-family:'Segoe UI';font-weight: bolder;" class="text-dark">
+								Scatter Numeric Column Plot</p>
+						</div>
+					</div>
+				</div>
+				<!-- 3 -->
+				<div class="col-md-4 col-sm-6 gallery-grid gal_b">
+					<div>
+						<div class="uk-card-hover bg-transparent">
+							<!-- Animate png -->
+							<div class="uk-animation-toggle" tabindex="0">
+								<div>
+									<a class="uk-inline"
+										href="{{ url_for('static', filename='uploads/pairplot_numer.png') }}"
+										data-caption="Month">
+										<img src="{{ url_for('static', filename='uploads/pairplot_numer.png') }}" alt=""
+											width="720" height="480">
+									</a>
+								</div>
+							</div>
+							<p style="text-align:center;font-family:'Segoe UI';font-weight: bolder;" class="text-dark">
+								Pairplot Numeric</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- Gal_C Section -->
+				<!-- 1 -->
+				<div class="col-md-4 col-sm-6 gallery-grid gal_c">
+					<div>
+						<div class="uk-card-hover bg-transparent">
+							<!-- Animate png -->
+							<div class="uk-animation-toggle" tabindex="0">
+								<div>
+									<a class="uk-inline"
+										href="{{ url_for('static', filename='uploads/rainfall_tomorrow.png') }}"
+										data-caption="Linear Regression">
+										<img src="{{ url_for('static', filename='uploads/rainfall_tomorrow.png') }}"
+											alt="" width="720" height="480">
+									</a>
+								</div>
+							</div>
+							<p style="text-align:center;font-family:'Segoe UI';font-weight: bolder;" class="text-dark">
+								Rainfall Tomorrow Grafik Plot</p>
+						</div>
+					</div>
+				</div>
+				<!-- 2 -->
+				<div class="col-md-4 col-sm-6 gallery-grid gal_c">
+					<div>
+						<div class="uk-card-hover bg-transparent">
+							<!-- Animate png -->
+							<div class="uk-animation-toggle" tabindex="0">
+								<div>
+									<a class="uk-inline"
+										href="{{ url_for('static', filename='uploads/boxenplot_temperature.png') }}"
+										data-caption="Decision Tree">
+										<img src="{{ url_for('static', filename='uploads/boxenplot_temperature.png') }}"
+											alt="" width="720" height="480">
+									</a>
+								</div>
+							</div>
+							<p style="text-align:center;font-family:'Segoe UI';font-weight: bolder;" class="text-dark">
+								Boxenplot Temperature</p>
+						</div>
+					</div>
+				</div>
+				<!-- 3 -->
+				<div class="col-md-4 col-sm-6 gallery-grid gal_c">
+					<div>
+						<div class="uk-card-hover bg-transparent">
+							<!-- Animate png -->
+							<div class="uk-animation-toggle" tabindex="0">
+								<div>
+									<a class="uk-inline"
+										href="{{ url_for('static', filename='uploads/vis_day_rt_y.png') }}"
+										data-caption="Correlation Heat Map">
+										<img src="{{ url_for('static', filename='uploads/vis_day_rt_y.png') }}" alt=""
+											width="720" height="480">
+									</a>
+								</div>
+							</div>
+							<p style="text-align:center;font-family:'Segoe UI';font-weight: bolder;" class="text-dark">
+								Visualization Day and RainTomorrow - Yes</p>
+						</div>
+					</div>
+				</div>
+				<!-- 4 -->
+				<div class="col-md-4 col-sm-6 gallery-grid gal_c">
+					<div>
+						<div class="uk-card-hover bg-transparent">
+							<!-- Animate png -->
+							<div class="uk-animation-toggle" tabindex="0">
+								<div>
+									<a class="uk-inline"
+										href="{{ url_for('static', filename='uploads/vis_day_rt_n.png') }}"
+										data-caption="Correlation Heat Map">
+										<img src="{{ url_for('static', filename='uploads/vis_day_rt_n.png') }}" alt=""
+											width="720" height="480">
+									</a>
+								</div>
+							</div>
+							<p style="text-align:center;font-family:'Segoe UI';font-weight: bolder;" class="text-dark">
+								Visualization Day and RainTomorrow - No</p>
+						</div>
+					</div>
+				</div>
+				<!-- 5 -->
+				<div class="col-md-4 col-sm-6 gallery-grid gal_c">
+					<div>
+						<div class="uk-card-hover bg-transparent">
+							<!-- Animate png -->
+							<div class="uk-animation-toggle" tabindex="0">
+								<div>
+									<a class="uk-inline"
+										href="{{ url_for('static', filename='uploads/rainfall_tomorrow.png') }}"
+										data-caption="Correlation Heat Map">
+										<img src="{{ url_for('static', filename='uploads/rainfall_tomorrow.png') }}"
+											alt="" width="720" height="480">
+									</a>
+								</div>
+							</div>
+							<p style="text-align:center;font-family:'Segoe UI';font-weight: bolder;" class="text-dark">
+								Rainfall Tomorrow</p>
+						</div>
+					</div>
+				</div>
+				<!-- 6 -->
+				<div class="col-md-4 col-sm-6 gallery-grid gal_c">
+					<div>
+						<div class="uk-card-hover bg-transparent">
+							<!-- Animate png -->
+							<div class="uk-animation-toggle" tabindex="0">
+								<div>
+									<a class="uk-inline" href="{{ url_for('static', filename='uploads/year_pie.png') }}"
+										data-caption="Correlation Heat Map">
+										<img src="{{ url_for('static', filename='uploads/year_pie.png') }}" alt=""
+											width="720" height="480">
+									</a>
+								</div>
+							</div>
+							<p style="text-align:center;font-family:'Segoe UI';font-weight: bolder;" class="text-dark">
+								Year</p>
+						</div>
+					</div>
+				</div>
+				<!-- 7 -->
+				<div class="col-md-4 col-sm-6 gallery-grid gal_c">
+					<div>
+						<div class="uk-card-hover bg-transparent">
+							<!-- Animate png -->
+							<div class="uk-animation-toggle" tabindex="0">
+								<div>
+									<a class="uk-inline"
+										href="{{ url_for('static', filename='uploads/raintoday_pie.png') }}"
+										data-caption="Correlation Heat Map">
+										<img src="{{ url_for('static', filename='uploads/raintoday_pie.png') }}" alt=""
+											width="720" height="480">
+									</a>
+								</div>
+							</div>
+							<p style="text-align:center;font-family:'Segoe UI';font-weight: bolder;" class="text-dark">
+								RainToday</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+	<!-- Member Team -->
+	<div id="team" class="section wb" data-aos="zoom-in">
+		<div class="container">
+			<div class="section-title text-center">
+				<h3>Our Team</h3>
+				<p>This group contains 3 certified independent study participants, namely:
+				</p>
+			</div><!-- end title -->
+
+			<div class="row">
+				<div class="col-sm">
+					<div class="our-team">
+						<div class="pic">
+							<img src="{{ url_for('static', filename='uploads/img-2.jpg') }}">
+						</div>
+						<div class="team-content">
+							<h3 class="title">Notasonda Soni Putra</h3>
+							<span class="post">PYTN-KS04-008</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm">
+					<div class="our-team">
+						<div class="pic">
+
+							<img src="{{ url_for('static', filename='uploads/img-4.jpg') }}">
+						</div>
+						<div class="team-content">
+							<h3 class="title">Windy Mega Melani</h3>
+							<span class="post">PYTN-KS04-003</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm">
+					<div class="our-team">
+						<div class="pic">
+
+							<img src="{{ url_for('static', filename='uploads/img-1.jpg') }}">
+						</div>
+						<div class="team-content">
+							<h3 class="title">Ahmad Firdaus Zulva</h3>
+							<span class="post">PYTN-KS04-001</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Prediction Section -->
+	<div id="contact" class="section lb" data-aos="zoom-in-down">
+		<div class="container">
+			<div class="section-title text-center">
+				<h3>Prediction</h3>
+				<p class="text-dark">In this Rain Prediction section will be using method, namely <b>Logistic Regression</b>.
+				</p>
+			</div><!-- end title -->
+			<div class="container-sm">
+				<h3 style="text-align:center;font-weight:bolder;">Rain Prediction</h3>
+				<form action="{{ url_for('predict_1')}}" method="post">
+					<div class="form-group">
+						<label for="Location">Location</label>
+						<select class="form-control" id="Location" name="Location" required="required">
+							<option>-- Choose a Location --</option>
+							<option value="0">Adelaide</option>
+							<option value="1">Albury</option>
+							<option value="2">AliceSprings</option>
+							<option value="3">BadgerysCreek</option>
+							<option value="4">Ballarat</option>
+							<option value="5">Bendigo</option>
+							<option value="6">Brisbane</option>
+							<option value="7">Cairns</option>
+							<option value="8">Canberra</option>
+							<option value="9">Cobar</option>
+							<option value="10">CoffsHarbour</option>
+							<option value="11">Dartmoor</option>
+							<option value="12">Darwin</option>
+							<option value="13">GoldCoast</option>
+							<option value="14">Hobart</option>
+							<option value="15">Katherine</option>
+							<option value="16">Launceston</option>
+							<option value="17">Melbourne</option>
+							<option value="18">MelbourneAirport</option>
+							<option value="19">Mildura</option>
+							<option value="20">Moree</option>
+							<option value="21">MountGambier</option>
+							<option value="22">MountGinini</option>
+							<option value="23">Nhil</option>
+							<option value="24">NorahHead</option>
+							<option value="25">NorfolkIsland</option>
+							<option value="26">Nuriootpa</option>
+							<option value="27">PearceRAAF</option>
+							<option value="28">Penrith</option>
+							<option value="29">Perth</option>
+							<option value="30">PerthAirport</option>
+							<option value="31">Portland</option>
+							<option value="32">Richmond</option>
+							<option value="33">Sale</option>
+							<option value="34">SalmonGums</option>
+							<option value="35">Sydney</option>
+							<option value="36">SydneyAirport</option>
+							<option value="37">Townsville</option>
+							<option value="38">Tuggeranong</option>
+							<option value="39">Uluru</option>
+							<option value="40">Wagga Wagga</option>
+							<option value="41">Walpole</option>
+							<option value="42">Watsonia</option>
+							<option value="43">Williamtown</option>
+							<option value="44">Witchcliffe</option>
+							<option value="45">Wollongong</option>
+							<option value="46">Woomera</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label for="formGroupExampleInput">Rainfall Intensity (mm)</label>
+						<input type="number" class="form-control" id="formGroupExampleInput"
+							placeholder="Input a number with a range of 0.0 - 367.6 " name="Rainfall">
+					</div>
+					<div class="form-group">
+						<label for="formGroupExampleInput">Wind Speed (Mph)</label>
+						<input type="number" class="form-control" id="formGroupExampleInput"
+							placeholder="Input a number with a range of 7.0 - 135.0 " name="WindGustSpeed">
+					</div>
+					<div class="form-group">
+						<label for="formGroupExampleInput">Humidity (°C)</label>
+						<input type="number" class="form-control" id="formGroupExampleInput"
+							placeholder="Input a number with a range of 0.0 - 100.0 " name="Humidity3pm">
+					</div>
+					<div class="form-group">
+						<label for="RainToday">Is it a rainy day?</label>
+						<select class="form-control" id="RainToday" name="RainToday" required="required">
+							<option>-- Choose a Condition --</option>
+							<option value="0">No, it's not raining today</option>
+							<option value="1">Yes, it's raining today</option>
+						</select>
+					</div>
+					<div class="card text-center">
+						<div class="card-header bg-dark text-white font-weight-bold">
+							Weather Prediction Results
+						</div>
+						<div class="card-body">
+							<p class="card-text">{{ prediction_text }}</p>
+						</div>
+					</div>
+					<div class="col-lg-12 text-center mt-3 mb-5">
+						<div id="success"></div>
+						<button class="sim-btn hvr-bounce-to-top" type="submit">Prediksi</button>
+					</div>
+				</form>
+
+			</div>
+			<a onClick="window.location.reload()">
+				<div class="card text-center">
+					<div class="card-body btn btn-danger font-weight-bold">
+						Refresh Page
+					</div>
+				</div>
+			</a>
+		</div>
+	</div>
+
+
+
+	<div class="copyrights">
+		<div class="container">
+			<div class="footer-distributed">
+				<div class="footer-center">
+					<p class="footer-company-name">Prediction Site &copy; 2022 | Designed By : Soni, Windy, Zulva</p>
+				</div>
+			</div>
+		</div><!-- end container -->
+	</div><!-- end copyrights -->
+
+	<a href="#" id="scroll-to-top" class="dmtop global-radius">
+		<div style="font-size: 20px;">Top</div>
+	</a>
+
+	<!-- ALL JS FILES -->
+
+	<script src="{{ url_for('static', filename='js/all.js') }}"></script>
+	<!-- Camera Slider  -->
+	<script src="{{ url_for('static', filename='js/jquery.mobile.customized.min.js ') }}"></script>
+	<script src="{{ url_for('static', filename='js/jquery.easing.1.3.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/parallaxie.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/headline.js') }}"></script>
+	<!-- Contact form JavaScript -->
+	<script src="{{ url_for('static', filename='js/jqBootstrapValidation.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/contact_me.js') }}"></script>
+	<!-- ALL PLUGINS -->
+	<script src="{{ url_for('static', filename='js/custom.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/jquery.vide.js') }}"></script>
+	<!-- Style JS -->
+	<script src="{{ url_for('static', filename='js/style.js') }}"></script>
+	<!-- UIKIT JS CDN -->
+	<script src="{{ url_for('static', filename='js/uikit.min.js') }}">
+	</script>
+	<script src="{{ url_for('static', filename='js/uikit-icons.min.js') }}"></script>
+	<script>
+		AOS.init();
+	</script>
+</body>
+
+</html>
