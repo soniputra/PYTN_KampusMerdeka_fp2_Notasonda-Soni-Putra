@@ -1,0 +1,3 @@
+Berikut ini merupakan link deploy dari Final Project 2:
+
+https://fp2-swz.herokuapp.com/
